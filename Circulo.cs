@@ -18,6 +18,7 @@ public class Circulo : Figura
         ______________________________________
         FIGURA CÍRCULO
         Radio: {this._radio}
+        Area: {this.GetArea()}
         Color: [A=255, R=50, G=20, B=34]
         """;
 

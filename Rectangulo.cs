@@ -5,12 +5,11 @@ public class Rectangulo : Figura
     protected double _base;
     protected double _altura;
 
-    //Constructor
-    public Rectangulo(double base, double altura)
+    // Constructor
+    public Rectangulo(double basee, double altura)
     {
-        this._base = base;
+        this._base = basee;
         this._altura = altura;
-
     }
 
     public override double GetArea()
@@ -25,6 +24,7 @@ public class Rectangulo : Figura
         FIGURA RECTÁNGULO
         Base: {this._base}
         Altura: {this._altura}
+        Area: {this.GetArea()}
         Color: [A=255, R=50, G=20, B=34]
         """;
 

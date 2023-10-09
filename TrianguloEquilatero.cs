@@ -6,7 +6,7 @@ public class TrianguloEquilatero : Figura
     protected double _altura;
 
     //Constructor
-    public Rectangulo(double base, double altura)
+    public TrianguloEquilatero(double lado, double altura)
     {
         this._lado = lado;
         this._altura = altura;
@@ -24,6 +24,7 @@ public class TrianguloEquilatero : Figura
         FIGURA TRIANGULO EQUILÁTERO
         Lado: {this._lado}
         Altura: {this._altura}
+        Area: {this.GetArea()}
         Color: [A=255, R=50, G=20, B=34]
         """;
 
