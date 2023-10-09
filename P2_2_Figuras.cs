@@ -18,7 +18,6 @@ public class P2_2_Figuras
 
     Circulo c1 = new Circulo(24.2);
     Console.WriteLine(c1);
-
   }
 
 }
